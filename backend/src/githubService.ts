@@ -1,10 +1,12 @@
 import { Octokit } from '@octokit/rest'
 import { RepoStats } from './models'
 
-const octokit = new Octokit()
+
+const octokit = new Octokit({
+  auth: process.env.GITHUB_TOKEN,
+})
 
 export async function analyzeRepo(repoUrl: string): Promise<RepoStats> {
-  // repoUrl format: https://github.com/user/repo
   const parts = repoUrl.replace('https://github.com/', '').split('/')
   if (parts.length !== 2) throw new Error('Invalid GitHub repo URL')
   const [owner, repo] = parts

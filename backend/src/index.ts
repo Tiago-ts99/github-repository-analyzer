@@ -1,6 +1,7 @@
 import bodyParser from 'body-parser'
 import cors from 'cors'
 import express from 'express'
+import path from 'path'
 import { analyzeRepo } from './githubService'
 
 const app = express()
@@ -23,6 +24,12 @@ app.post('/analyze', async (req, res) => {
   } catch (err) {
     res.status(500).json({ error: (err as Error).message })
   }
+})
+
+app.use(express.static(path.join(__dirname, '../../frontend')))
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../../frontend/index.html'))
 })
 
 app.listen(PORT, () =>
