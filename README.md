@@ -1,4 +1,4 @@
-# GitHub Repository Analyzer
+# GitHub Repository Analyzer in Typescript
 
 ![TypeScript](https://img.shields.io/badge/Language-TypeScript-blue.svg)  ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
