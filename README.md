@@ -54,23 +54,17 @@ cd github-repo-analyzer/backend
 npm install
 ```
 
-3. Run in development mode:
+3. Build & run in production:
 
 ```bash
-npm run dev
+npm run build
+npm start
 ```
 
 4. Open frontend:
 
 ```text
 http://localhost:8080
-```
-
-5. Build & run in production:
-
-```bash
-npm run build
-npm start
 ```
 
 ---
